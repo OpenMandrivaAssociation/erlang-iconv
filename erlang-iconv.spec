@@ -15,6 +15,11 @@ Source0:    https://github.com/processone/iconv/archive/%{version}.tar.gz
 Provides:   erlang-p1_iconv = %{version}-%{release}
 Obsoletes:  erlang-p1_iconv <= 1.0.0-2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: erlang-p1_utils >= 1.0.5
 BuildRequires: erlang-rebar
 
